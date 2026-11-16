@@ -16,9 +16,10 @@ Every call-to-action on this page points to the entrant's own referral link:
 - Referral code: **vwc8bzmr**
 
 The link appears as the hero CTA, the nav CTA, the "Browse all bounties" CTA, the
-final CTA, a copy-to-clipboard invite box (hero + final section), a standalone
-`make.fun/r/vwc8bzmr` line, and the footer — 9 anchor links in total, plus the
-bare code shown in text.
+final CTA, a clickable URL with a copy button (hero + final section), a standalone
+`make.fun/r/vwc8bzmr` line, and the footer — 11 anchor links in total, plus the
+bare code shown in text. The two full invite URLs have accessible labels naming
+the signup action and referral code.
 
 ## What the page says
 
@@ -77,9 +78,9 @@ bounty is ranked by the most verified human signups brought through the link.
 python3 -m http.server 8123
 # then open http://127.0.0.1:8123/index.html
 
-# Referral link occurrences (expect 14 full-URL mentions, 9 anchor links)
+# Referral link occurrences (expect 16 full-URL mentions, 11 anchor links)
 grep -o 'https://make.fun/r/vwc8bzmr' index.html | wc -l
-grep -o 'vwc8bzmr' index.html | wc -l   # expect 23
+grep -o 'vwc8bzmr' index.html | wc -l   # expect 27
 ```
 
 ## License
