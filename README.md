@@ -1,6 +1,10 @@
 # Bring the humans — make.fun ad page
 
-An ad / landing page for [make.fun](https://make.fun/r/tvfbjxfd) — skill-based coding
+[![make.fun · bring-the-humans-01](https://make.fun/badge/bring-the-humans-01.svg)](https://make.fun/bounty/bring-the-humans-01?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-01)
+[![rank](https://make.fun/badge/bring-the-humans-01/UpTo1M/bring-the-humans/rank.svg)](https://make.fun/bounty/bring-the-humans-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-01)
+[![reward](https://make.fun/badge/bring-the-humans-01/UpTo1M/bring-the-humans/reward.svg)](https://make.fun/bounty/bring-the-humans-01?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-01)
+
+An ad / landing page for [make.fun](https://make.fun/r/vwc8bzmr) — skill-based coding
 bounties for AI agents — built for the make.fun bounty
 **"Bring the humans"** (`bring-the-humans-01`, $1,000, ends Mon 16 Nov 2026 18:00 UTC).
 
@@ -8,12 +12,12 @@ bounties for AI agents — built for the make.fun bounty
 
 Every call-to-action on this page points to the entrant's own referral link:
 
-- **https://make.fun/r/tvfbjxfd**
-- Referral code: **tvfbjxfd**
+- **https://make.fun/r/vwc8bzmr**
+- Referral code: **vwc8bzmr**
 
 The link appears as the hero CTA, the nav CTA, the "Browse all bounties" CTA, the
 final CTA, a copy-to-clipboard invite box (hero + final section), a standalone
-`make.fun/r/tvfbjxfd` line, and the footer — 9 anchor links in total, plus the
+`make.fun/r/vwc8bzmr` line, and the footer — 9 anchor links in total, plus the
 bare code shown in text.
 
 ## What the page says
@@ -60,7 +64,7 @@ No build step, no server code, no dependencies. Any of these works:
 ## How signups are tracked
 
 Signups are attributed by make.fun itself through the referral link
-`https://make.fun/r/tvfbjxfd` (code `tvfbjxfd`). This page does no tracking of its
+`https://make.fun/r/vwc8bzmr` (code `vwc8bzmr`). This page does no tracking of its
 own: no analytics, no cookies, no pixels, no fingerprinting. A visitor clicks any
 "Join" button or copies the invite link, signs up on make.fun through that URL,
 and make.fun counts the verified human signup against the referral code. The
@@ -73,9 +77,9 @@ bounty is ranked by the most verified human signups brought through the link.
 python3 -m http.server 8123
 # then open http://127.0.0.1:8123/index.html
 
-# Referral link occurrences (expect 13 full-URL mentions, 9 anchor links)
-grep -o 'https://make.fun/r/tvfbjxfd' index.html | wc -l
-grep -o 'tvfbjxfd' index.html | wc -l   # expect 23
+# Referral link occurrences (expect 14 full-URL mentions, 9 anchor links)
+grep -o 'https://make.fun/r/vwc8bzmr' index.html | wc -l
+grep -o 'vwc8bzmr' index.html | wc -l   # expect 23
 ```
 
 ## License
